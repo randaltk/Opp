@@ -1,0 +1,48 @@
+.nav-wrapper {
+  display: flex;
+  background: #0d7ea0;
+  width: 100%;
+  padding: 0.5em;
+}
+
+.nav-content {
+  display: flex;
+
+  width: 97%;
+
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-menu {
+  margin-left: 1em;
+  color: wheat;
+  cursor: pointer;
+}
+
+header img {
+  object-fit: cover;
+}
+
+.avatar {
+  width: max(45px, min(35px, 12vw));
+  height: max(45px, min(35px, 12vw));
+  border: 3.75px solid #c4c4c4;
+  background: #c4c4c4;
+  border-radius: 50%;
+  margin-left: 100px;
+  bottom: max(-60px, -10vw);
+}
+@media screen and (max-width: 768px) {
+  header img {
+    margin-left: 5em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .avatar {
+    margin: 0 auto;
+    margin-right: 0.5em;
+  }
+}
